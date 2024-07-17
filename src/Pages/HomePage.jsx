@@ -1,4 +1,4 @@
-import { Box } from '@chakra-ui/react'
+import { Box, Button } from '@chakra-ui/react'
 import React from 'react'
 import Hero from '../Components/Hero'
 import Card from '../Components/cards/Card'
@@ -11,11 +11,10 @@ import Header from '../Components/Header'
 import Offer from '../Components/Offer'
 import Pricing from '../Components/Pricing'
 import StartBlog from '../Components/StartBlog'
-import Contact from '../Components/Contact'
-
+import Contact from '../Components/Contact';
 export default function HomePage() {
   return (
-    <Box className=' text-black'>
+    <Box className=' text-black' id='#'>
       {/* <Header/> */}
       <Hero/>
       <Box mt={{'2xl': '-14vh',xl: '-19vh', md: 14,base: 14}} position={{md: 'absolute', base: 'static'}}>
