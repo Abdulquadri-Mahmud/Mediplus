@@ -5,7 +5,7 @@ export default function ContactUs() {
   return (
     <Flex justifyContent={'space-around'} my={10} shadow={'xl'} flexWrap={'wrap'} py={5} maxW={{md: '90%', base: '95%'}} mx={'auto'} rounded={5}>
         <Box width={{md:'45%', base: '100%'}} height={'100%'} px={{md: 0, base: 5}}>
-            <iframe width={'100%'} height={'500px'} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.467927614716!2d3.524071474081166!3d6.588611922405158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bee4740bd527b%3A0xb19235da2044f4d9!2s1%20Akin%20Ogunlewe%20Rd%2C%20Ikorodu%2C%20104102%2C%20Lagos!5e0!3m2!1sen!2sng!4v1721227419085!5m2!1sen!2sng" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe width={'100%'} style={{height: '650px'}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.467927614716!2d3.524071474081166!3d6.588611922405158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bee4740bd527b%3A0xb19235da2044f4d9!2s1%20Akin%20Ogunlewe%20Rd%2C%20Ikorodu%2C%20104102%2C%20Lagos!5e0!3m2!1sen!2sng!4v1721227419085!5m2!1sen!2sng" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </Box>
         <Box width={{md:'45%', base: '100%'}} px={{md: 0, base: 5}}>
             <Box gap={3}>

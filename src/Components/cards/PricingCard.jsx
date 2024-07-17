@@ -38,7 +38,7 @@ export default function PricingCard() {
                         <IoMdCloseCircle className='text-gray-500 text-xl'/>
                     </Flex>
                 </Flex>
-                <Button bg={'blue.500'} width={'100%'} color={'white'} py={'23px'} textTransform={'uppercase'} mt={5}>Book Now</Button>
+                <Button bg={'blue.500'} _hover={{bg: 'blue.400'}} width={'100%'} color={'white'} py={'23px'} textTransform={'uppercase'} mt={5}>Book Now</Button>
             </Box>
             <Box bg={'white'} borderWidth={1} borderColor={'gray.300'} p={8} rounded={5} width={{md: '350px', base: '97%'}}>
                 <Flex justifyContent={'center'} mb={5}>
@@ -68,7 +68,7 @@ export default function PricingCard() {
                         <IoMdCloseCircle className='text-gray-500 text-xl'/>
                     </Flex>
                 </Flex>
-                <Button bg={'blue.500'} width={'100%'} color={'white'} py={'23px'} textTransform={'uppercase'} mt={5}>Book Now</Button>
+                <Button bg={'blue.500'} _hover={{bg: 'blue.400'}} width={'100%'} color={'white'} py={'23px'} textTransform={'uppercase'} mt={5}>Book Now</Button>
             </Box>
             <Box bg={'white'} borderWidth={1} borderColor={'gray.300'} p={8} rounded={5} width={{md: '350px', base: '97%'}}>
                 <Flex justifyContent={'center'} mb={5}>
@@ -98,7 +98,7 @@ export default function PricingCard() {
                         <FaCheckCircle className='text-blue-500'/>
                     </Flex>
                 </Flex>
-                <Button bg={'blue.500'} width={'100%'} color={'white'} py={'23px'} textTransform={'uppercase'} mt={5}>Book Now</Button>
+                <Button bg={'blue.500'} _hover={{bg: 'blue.400'}} width={'100%'} color={'white'} py={'23px'} textTransform={'uppercase'} mt={5}>Book Now</Button>
             </Box>
         </Flex></>
   )

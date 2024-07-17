@@ -23,20 +23,20 @@ export default function Header() {
                 </Flex>
             </Flex>
         </Box>
-        <Box top={0} position={'sticky'} zIndex={100}>
-            <Flex justifyContent={'space-between'} alignItems={'center'} p={2} px={6} bg={'blue.500'} shadow={'md'}>
+        <Box top={0} position={'sticky'} zIndex={100} bg={'blue.500'} shadow={'md'}>
+            <Flex justifyContent={'space-evenly'} alignItems={'center'} p={3} px={6}>
                 <Flex alignItems={'center'} gap={1}>
                     <Box bg={'white'} width={35}>
                         <Image src={logo} boxSize={35}/>
                     </Box>
                     <Text fontWeight={500} fontSize={27} color={'white'} className='flex items-center'>Medi <span className="">Plus</span></Text>
                 </Flex>
-                <Box display={{md: 'block', base: 'none'}}>
+                <Box display={{md: 'block', base: 'none'}} className='menu' position={'relative'}>
                     <Link to={'/'} className='font-normal text-md text-white px-2'>Home</Link>
                     <Link to={'/'} className='font-normal text-md text-white px-2'>About</Link>
                     <Link to={'/'} className='font-normal text-md text-white px-2'>Doctors</Link>
                     <Link to={'/'} className='font-normal text-md text-white px-2'>Services</Link>
-                    <Link to={'/'} className='font-normal text-md text-white px-2'>Blogs</Link>
+                    <Link to={'/blog'} className='font-normal text-md text-white px-2'>Blogs</Link>
                     <Link to={'/Contact'} className='font-normal text-md text-white px-2'>Contact</Link>
                 </Box>
                 <Box display={{md: 'block', base: 'none'}}>

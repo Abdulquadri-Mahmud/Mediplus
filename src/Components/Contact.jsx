@@ -34,7 +34,7 @@ export default function Contact() {
             <Box width={{md:'45%', base: '100%'}}>
                 <Image src='/img/contact-img.png'/>
             </Box>
-            <Box width={'100%'} px={{md: 10, base: 3}} py={{md: 20, base: 10}} bg={'gray.200'} mt={16}>
+            <Box width={'100%'} px={{md: 5, base: 3}} py={{md: 20, base: 10}} bg={'gray.200'} mt={16}>
                 <Flex justifyContent={'center'} alignItems={'center'} maxW={{'2xl': '90%'}} gap={1} color={'black'} mx={'auto'} flexWrap={'wrap'}>
                     <Box width={{md: '45%', base: '100%'}}>
                         <Heading fontSize={35} fontWeight={500} textAlign={{md: 'center', base: 'center'}}>Sign <span className="text-blue-500">Up</span> for <span className="text-blue-500">News</span>letter</Heading>
