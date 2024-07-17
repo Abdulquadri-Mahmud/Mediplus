@@ -14,7 +14,7 @@ import StartBlog from '../Components/StartBlog'
 import Contact from '../Components/Contact';
 export default function HomePage() {
   return (
-    <Box className=' text-black' id='#'>
+    <Box className=' text-black' id='home'>
       {/* <Header/> */}
       <Hero/>
       <Box mt={{'2xl': '-14vh',xl: '-19vh', md: 14,base: 14}} position={{md: 'absolute', base: 'static'}}>

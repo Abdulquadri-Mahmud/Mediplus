@@ -24,7 +24,7 @@ export default function Header() {
             </Flex>
         </Box>
         <Box top={0} position={'sticky'} zIndex={100} bg={'blue.500'} shadow={'md'}>
-            <Flex justifyContent={'space-evenly'} alignItems={'center'} p={3} px={6}>
+            <Flex justifyContent={{md: 'space-evenly', base: 'space-between'}} alignItems={'center'} p={3} px={6}>
                 <Flex alignItems={'center'} gap={1}>
                     <Box bg={'white'} width={35}>
                         <Image src={logo} boxSize={35}/>
