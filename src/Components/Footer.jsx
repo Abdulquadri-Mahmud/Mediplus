@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
-    <Box fontWeight={500} mt={{md: '10vh', base: '0vh'}} py={20} 
+    <Box fontWeight={500} mt={{md: '10vh', base: '0vh'}} pt={20}
     px={{xl: 10,md: 20, base: 5}} bg={'blue.500'} color={'white'} className='grid grid-cols-1 md:grid-cols-4 gap-4'>
         <Box>
             <Box>
@@ -113,8 +113,8 @@ export default function Footer() {
                 </Box>
             </Box>
         </Box>
-        <Box className='grid-cols-4'>
-            <Text textAlign={'center'} fontWeight={400}>&copy;Copyright | All Rights reserve by Adeyemicodes</Text>
+        <Box mt={5} className='grid-cols-4'>
+            <Text textAlign={'center'} fontWeight={400} fontSize={14}>&copy;Copyright | All Rights reserve by Adeyemicodes</Text>
         </Box>
     </Box>
   )

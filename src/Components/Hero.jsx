@@ -15,7 +15,8 @@ function SampleNextArrow(props) {
     return (
       <div className={className}
         style={{ ...style, display: "block", background: "rgb(59, 130, 246)",
-            height: '40px', width:'40px', top: '35vh', borderRadius: '50%',padding: '10px', right: '5vh'}}
+            height: '50px', width:'50px', top: '35vh', borderRadius: '50%',
+            padding: '15px', right: '2vh'}}
         onClick={onClick}
       />
     );
@@ -26,8 +27,8 @@ function SamplePrevArrow(props) {
     return (
         <div className={className}
         style={{ ...style, display: "block", background: "rgb(59, 130, 246)",
-            height: '40px', width:'40px', top: '35vh', borderRadius: '50%',padding: '10px',
-         left: '5vh', zIndex: '1'}}
+            height: '50px', width:'50px', top: '35vh', borderRadius: '50%',padding: '15px',
+         left: '2vh', zIndex: '1'}}
         onClick={onClick}/>
     );
 }
@@ -47,7 +48,7 @@ export default function Hero() {
             <Flex justifyContent={'center'} alignItems={'center'} bgImg={`url(${bg1})`} height={{'2xl':'80vh', xl: '90vh', md: '100vh', base: '100vh'}} bgPos={'right'} bgSize={'cover'} bgRepeat={'no-repeat'} className='blendmode'>
                 <Box width={{md: '60%', base: '100%'}} pl={{md: '20vh', base: 3}} pt={40}>
                     <Heading  textAlign={{md: 'left', base: 'center'}} fontWeight={500} fontSize={{md: 40, base: 30}} color={'black'}>We Provide <span className="text-blue-500">Medical</span> Services That <br /> You Can <span className="text-blue-500">Trust!</span></Heading>
-                    <Text  mt={5} textAlign={{md: 'left', base: 'center'}} fontWeight={500} color={'black'}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, cupiditate obcaecati vero officiis impedit doloremque, nihil commodi consequatur quasi alias voluptas suscipit esse. Excepturi recusandae assumenda provident tenetur eum laudantium?</Text>
+                    <Text  mt={5} textAlign={{md: 'left', base: 'center'}} fontWeight={500} color={'white'} fontSize={'16'}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, cupiditate obcaecati vero officiis impedit doloremque, nihil commodi consequatur quasi alias voluptas suscipit esse. Excepturi recusandae assumenda provident tenetur eum laudantium?</Text>
                     <Flex gap={6} mt={5}>
                         <Button rounded={3} _hover={{bg: 'blue.500', color:'white'}} bg={'blue.500'} color={'white'} py={6}>Get Appointment</Button>
                         <Button rounded={3} _hover={{bg: 'blue.500', color:'white'}} bg={'gray.800'} color={'white'} py={6}>Learn More</Button>
@@ -57,7 +58,7 @@ export default function Hero() {
             <Flex bgImg={`url(${bg2})`} height={{'2xl':'80vh', xl: '90vh', md: '100vh', base: '100vh'}} bgPos={'right'} bgSize={'cover'} bgRepeat={'no-repeat'} className='blendmode'>
                 <Box width={{md: '60%', base: '100%'}} pl={{md: '20vh', base: 3}} pt={40}>
                     <Heading  textAlign={{md: 'left', base: 'center'}} fontWeight={500} fontSize={{md: 40, base: 30}} color={'black'}>We Provide <span className="text-blue-500">Medical</span> Services That <br /> You Can <span className="text-blue-500">Trust!</span></Heading>
-                    <Text mt={5} textAlign={{md: 'left', base: 'center'}} fontWeight={500} color={'black'}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, cupiditate obcaecati vero officiis impedit doloremque, nihil commodi consequatur quasi alias voluptas suscipit esse. Excepturi recusandae assumenda provident tenetur eum laudantium?</Text>
+                    <Text mt={5} textAlign={{md: 'left', base: 'center'}} fontWeight={500} color={'white'} fontSize={'16'}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, cupiditate obcaecati vero officiis impedit doloremque, nihil commodi consequatur quasi alias voluptas suscipit esse. Excepturi recusandae assumenda provident tenetur eum laudantium?</Text>
                     <Flex gap={6} mt={5}>
                         <Button rounded={3} _hover={{bg: 'blue.500', color:'white'}} bg={'blue.500'} color={'white'} py={6}>Get Appointment</Button>
                         <Button rounded={3} _hover={{bg: 'blue.500', color:'white'}} bg={'gray.800'} color={'white'} py={6}>About Us</Button>
@@ -67,7 +68,7 @@ export default function Hero() {
             <Flex bgImg={`url(${bg3})`} height={{'2xl':'80vh', xl: '90vh', md: '100vh', base: '100vh'}} bgPos={'right'} bgSize={'cover'} bgRepeat={'no-repeat'} className='blendmode'>
                 <Box width={{md: '60%', base: '100%'}} pl={{md: '20vh', base: 3}} pt={40}>
                     <Heading  textAlign={{md: 'left', base: 'center'}} fontWeight={500} fontSize={{md: 40, base: 30}} color={'black'}>We Provide <span className="text-blue-500">Medical</span> Services That <br /> You Can <span className="text-blue-500">Trust!</span></Heading>
-                    <Text mt={5} textAlign={{md: 'left', base: 'center'}} fontWeight={500} color={'black'}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, cupiditate obcaecati vero officiis impedit doloremque, nihil commodi consequatur quasi alias voluptas suscipit esse. Excepturi recusandae assumenda provident tenetur eum laudantium?</Text>
+                    <Text mt={5} textAlign={{md: 'left', base: 'center'}} fontWeight={500} color={'white'} fontSize={'16'}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, cupiditate obcaecati vero officiis impedit doloremque, nihil commodi consequatur quasi alias voluptas suscipit esse. Excepturi recusandae assumenda provident tenetur eum laudantium?</Text>
                     <Flex gap={6} mt={5}>
                         <Button rounded={3} _hover={{bg: 'blue.500', color:'white'}} bg={'blue.500'} color={'white'} py={6}>Get Appointment</Button>
                         <Button rounded={3} _hover={{bg: 'blue.500', color:'white'}} bg={'gray.800'} color={'white'} py={6}>Contact Now</Button>
