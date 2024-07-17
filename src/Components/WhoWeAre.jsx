@@ -52,7 +52,7 @@ export default function WhoWeAre() {
                 </Flex>
             </Box>
             <Box width={{md: '45%', base: '97%'}} mt={{md: 0, base: 7}} position={'relative'}>
-                <Image src='/img/video-bg.jpg' maxW={'100%'} height={{md: '50vh', base: '100%'}}/>
+                <Image src='/img/video-bg.jpg' maxW={'100%'}/>
                 <Flex justifyContent={'center'} alignItems={'center'} position={'absolute'} top={'50%'} left={'50%'}
                 width={'80px'} height={'80px'} rounded={'full'} bg={'white'} className='translate-x-[-50%] translate-y-[-50%]'>
                     <FaPlay className='text-2xl text-blue-500'/>
