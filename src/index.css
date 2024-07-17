@@ -18,7 +18,7 @@ a{
 }
 .blendmode2{
   background-blend-mode: multiply;
-  background-color: rgb(148, 149, 150);
+  background-color: rgb(197, 197, 197);
 }
 .shadows{
   /* box-shadow: 2px 2px 2px rgb(59, 130, 246); */
@@ -45,4 +45,8 @@ a{
 }
 .startBlogCard:hover > .blogCard{
   width: 100%;
+}
+
+iframe{
+  border-radius: 10px;
 }

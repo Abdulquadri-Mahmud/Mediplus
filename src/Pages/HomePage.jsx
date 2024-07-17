@@ -16,7 +16,7 @@ import Contact from '../Components/Contact'
 export default function HomePage() {
   return (
     <Box className=' text-black'  maxW={{'2xl':'100%', xl: '100%'}} mx={'auto'}>
-      <Header/>
+      {/* <Header/> */}
       <Hero/>
       <Box mt={{'2xl': '-14vh',md: 14, base: 14}} position={{md: 'absolute', base: 'static'}}>
         <Card/>

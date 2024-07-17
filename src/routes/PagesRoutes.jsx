@@ -4,13 +4,15 @@ import React from 'react'
 import HomePage from '../Pages/HomePage';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
+import ContactPage from '../Pages/ContactPage';
 
 export default function PagesRoutes() {
   return (
     <Router>
-      {/* <Header/> */}
+      <Header/>
         <Routes>
             <Route path='/' element={<HomePage/>}/>
+            <Route path='/contact' element={<ContactPage/>}/>
         </Routes>
         <Footer/>
     </Router>

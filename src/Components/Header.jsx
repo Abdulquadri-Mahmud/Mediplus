@@ -14,7 +14,7 @@ export default function Header() {
                 <Flex alignItems={'center'} gap={3}>
                     <Link to={'/'} className='font-medium text-sm text-black'>About</Link>
                     <Link to={'/'} className='font-medium text-sm text-black'>Doctors</Link>
-                    <Link to={'/'} className='font-medium text-sm text-black'>Contact</Link>
+                    <Link to={'/contact'} className='font-medium text-sm text-black'>Contact</Link>
                     <Link to={'/'} className='font-medium text-sm text-black'>FAQ</Link>
                 </Flex>
                 <Flex gap={10} alignItems={'center'}>
@@ -32,11 +32,12 @@ export default function Header() {
                     <Text fontWeight={500} fontSize={27} color={'white'} className='flex items-center'>Medi <span className="">Plus</span></Text>
                 </Flex>
                 <Box display={{md: 'block', base: 'none'}}>
+                    <Link to={'/'} className='font-normal text-md text-white px-2'>Home</Link>
                     <Link to={'/'} className='font-normal text-md text-white px-2'>About</Link>
                     <Link to={'/'} className='font-normal text-md text-white px-2'>Doctors</Link>
                     <Link to={'/'} className='font-normal text-md text-white px-2'>Services</Link>
                     <Link to={'/'} className='font-normal text-md text-white px-2'>Blogs</Link>
-                    <Link to={'/'} className='font-normal text-md text-white px-2'>Contact</Link>
+                    <Link to={'/Contact'} className='font-normal text-md text-white px-2'>Contact</Link>
                 </Box>
                 <Box display={{md: 'block', base: 'none'}}>
                     <Button bg={'white'} color={'black'}  _hover={{bg: 'blue.500', color:'white'}} rounded={3} height={12} width={'160px'}>Book Appointment</Button>
