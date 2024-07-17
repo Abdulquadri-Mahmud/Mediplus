@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  margin: 0;
+}
+body {
+  /* background-color: #242424; */
+  background-color: black;
+  color: white;
+}
+a{
+  color: white;
+}
+.blendmode{
+  background-blend-mode: multiply;
+  background-color: rgb(255, 255, 255);
+}
+.blendmode2{
+  background-blend-mode: multiply;
+  background-color: rgb(148, 149, 150);
+}
+.shadows{
+  /* box-shadow: 2px 2px 2px rgb(59, 130, 246); */
+  /* box-shadow: 1px 1px 5px white; */
+}
+/* bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 */
+
+.view-detailst-cont:hover > .view-details{
+  display: block;
+  transition: all 0.3s;
+}
+
+.blogCard{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background: rgb(59, 130, 246);
+  transition: all 0.3s;
+}
+.active{
+  width: 100%;
+}
+.startBlogCard:hover > .blogCard{
+  width: 100%;
+}
