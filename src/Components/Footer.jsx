@@ -3,6 +3,7 @@ import React from 'react'
 import { FaFacebook, FaGoogle, FaPinterest, FaTwitter } from 'react-icons/fa'
 import { FaVimeo } from 'react-icons/fa6';
 import { FaCaretRight } from "react-icons/fa6";
+import { IoIosSend } from "react-icons/io";
 import { Link } from 'react-router-dom';
 
 export default function Footer() {
@@ -107,9 +108,11 @@ export default function Footer() {
             </Box>
             <Box mt={4}>
                 <Text>subscribe to our newsletter to get allour news in your inbox.. Lorem ipsum dolor sit amet, consectetur adipisicing elit,</Text>
-                <Box>
-                    <input type="email" />
-                    <button></button>
+                <Box mt={4}>
+                    <form className='flex justify-center'>
+                        <input type="email" placeholder='Your Email Address' className='p-3 md:w-[75%] w-[280px] border-blue-500 outline-none text-black font-medium'/>
+                        <button className='uppercase p-3 w-[60px] bg-blue-500 text-white font-medium'><IoIosSend className='text-3xl'/></button>
+                    </form>
                 </Box>
             </Box>
         </Box>
