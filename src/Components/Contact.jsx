@@ -43,7 +43,7 @@ export default function Contact() {
                     <Flex justifyContent={{md: 'space-between', base: 'center'}} width={{md: '45%', base: '100%'}}>
                         <form className='flex flex-wrap justify-center'>
                             <input type="email" placeholder='Your Email Address' className='p-4 md:w-[65%] w-[280px] border-blue-500 outline-none text-black font-medium'/>
-                            <button className='uppercase p-4 md:w-[35%] w-[120px] bg-blue-500 text-white font-medium'>Subscribe</button>
+                            <button className='uppercase p-4 md:w-[35%] w-[150px] bg-blue-500 text-white font-medium'>Subscribe</button>
                         </form>
                     </Flex>
                 </Flex>
