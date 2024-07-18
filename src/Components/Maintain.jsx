@@ -66,7 +66,7 @@ export default function Maintain() {
         <Box mt={7} maxW={{'2xl': '70%'}} mx={'auto'}>
             <Slider {...settings}>
                 <Box position={'relative'} className='view-detailst-cont'>
-                    <Box p={{'2xl': 0, xl: 2, md: 2, base: 2}}>
+                    <Box p={{'2xl': 0, xl: 2, md: 2, base: 0}}>
                         <Image rounded={5} src='/img/pf1.jpg'/>
                     </Box>
                     <Box position={'absolute'} top={'50%'} left={'50%'} display={'none'} className='view-details translate-x-[-50%] translate-y-[-50%]'>
@@ -76,7 +76,7 @@ export default function Maintain() {
                     </Box>
                 </Box>
                 <Box position={'relative'} className='view-detailst-cont'>
-                    <Box p={{'2xl': 0, xl: 2, md: 2, base: 2}}>
+                    <Box p={{'2xl': 0, xl: 2, md: 2, base: 0}}>
                         <Image rounded={5} src='/img/pf2.jpg'/>
                     </Box>
                     <Box position={'absolute'} top={'50%'} left={'50%'} display={'none'} className='view-details translate-x-[-50%] translate-y-[-50%]'>
@@ -86,7 +86,7 @@ export default function Maintain() {
                     </Box>
                 </Box>
                 <Box position={'relative'} className='view-detailst-cont'>
-                    <Box p={{'2xl': 0, xl: 2, md: 2, base: 2}}>
+                    <Box p={{'2xl': 0, xl: 2, md: 2, base: 0}}>
                         <Image rounded={5} src='/img/pf3.jpg'/>
                     </Box>
                     <Box position={'absolute'} top={'50%'} left={'50%'} display={'none'} className='view-details translate-x-[-50%] translate-y-[-50%]'>
@@ -96,7 +96,7 @@ export default function Maintain() {
                     </Box>
                 </Box>
                 <Box position={'relative'} className='view-detailst-cont'>
-                    <Box p={{'2xl': 0, xl: 2, md: 2, base: 2}}>
+                    <Box p={{'2xl': 0, xl: 2, md: 2, base: 0}}>
                         <Image rounded={5} src='/img/pf4.jpg'/>
                     </Box>
                     <Box position={'absolute'} top={'50%'} left={'50%'} display={'none'} className='view-details translate-x-[-50%] translate-y-[-50%]'>
