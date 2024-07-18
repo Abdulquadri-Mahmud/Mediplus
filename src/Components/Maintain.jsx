@@ -35,8 +35,8 @@ export default function Maintain() {
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
-        speed: 2500,
-        autoplaySpeed: 2500,
+        speed: 2000,
+        autoplaySpeed: 2000,
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,
         responsive: [

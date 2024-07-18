@@ -42,6 +42,7 @@ export default function Hero() {
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />
     };
+    
   return (
     <Box height={{'2xl':'80vh', xl: '90vh', md: '100vh', base: '100vh'}}>
         <Slider {...settings}>
