@@ -11,9 +11,9 @@ import { FaFacebook, FaGoogle, FaTwitter } from 'react-icons/fa';
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
-      <div className={className}
+      <Box top={{md: '35vh', base: '12vh'}} className={className}
         style={{ ...style, display: "block", background: "rgb(59, 130, 246)",
-            height: '50px', width:'50px', top: '30vh', borderRadius: '50%',
+            height: '50px', width:'50px', borderRadius: '50%',
             padding: '15px', right: '2vh'}}
         onClick={onClick}
       />
@@ -23,9 +23,9 @@ function SampleNextArrow(props) {
 function SamplePrevArrow(props) {
     const { className, style, onClick } = props;
     return (
-        <div className={className}
+        <Box top={{md: '35vh', base: '12vh'}} className={className}
         style={{ ...style, display: "block", background: "rgb(59, 130, 246)",
-            height: '50px', width:'50px', top: '30vh', borderRadius: '50%',padding: '15px',
+            height: '50px', width:'50px', borderRadius: '50%',padding: '15px',
          left: '2vh', zIndex: '1'}}
         onClick={onClick}/>
     );
@@ -43,7 +43,7 @@ export default function Details() {
 
   return (
     <Box maxW={{md: '90%', base: '100%'}} mx={'auto'} px={{md: 0, base: 3}} my={'10vh'}>
-         <Box position={'relative'} shadow={'xl'} p={5} rounded={10}>
+         <Box position={'relative'} shadow={'xl'} p={0} rounded={10}>
             <Slider {...settings}>
                 <Box>
                     <Image src='/img/call-bg.jpg' maxW={'100%'}/>
