@@ -46,6 +46,7 @@ export default function Sidemenu() {
                     <Link to={'/'} className='font-medium text-black hover:text-blue-500 duration-150 py-1'>About</Link>
                     <Link to={'/'} className='font-medium text-black hover:text-blue-500 duration-150 py-1'>Doctors</Link>
                     <Link to={'/'} className='font-medium text-black hover:text-blue-500 duration-150 py-1'>Services</Link>
+                    <Link to={'/blog'} className='font-medium text-black hover:text-blue-500 duration-150 py-1'>Blog</Link>
                     <Link to={'/contact'} className='font-medium text-black hover:text-blue-500 duration-150 py-1'>Contact</Link>
                     <Link to={'/'} className='font-medium text-black hover:text-blue-500 duration-150 py-1'>FAQ</Link>
                 </Stack>

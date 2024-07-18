@@ -29,7 +29,7 @@ export default function Blog() {
                     <Image w={'100%'} src='/img/blog1.jpg'/>
                 </Box>
                 <Heading my={6} fontWeight={500} fontSize={35}>More than 80 clinical trials launch to test of the coronavirus .</Heading>
-                <Flex justifyContent={'space-between'} borderColor={'gray.300'} borderTopWidth={1} borderBottomWidth={1} p={2}>
+                <Flex justifyContent={'space-between'} flexWrap={'wrap'} borderColor={'gray.300'} borderTopWidth={1} borderBottomWidth={1} p={2}>
                     <Flex alignItems={'center'} gap={2}>
                         <Image boxSize={35} rounded={'full'} src='/img/author1.jpg'/>
                         <Flex alignItems={'center'} gap={2}>
@@ -61,7 +61,7 @@ export default function Blog() {
                     <Text mt={6}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis ultricies tortor, nec sollicitudin lorem sagittis vitae. Curabitur rhoncus commodo rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nec lacus pulvinar, laoreet dolor quis, pellentesque ante. Cras nulla orci, pharetra at dictum consequat, pretium pretium nulla. Suspendisse porttitor nunc a sodales tempor. Mauris sed felis maximus, interdum metus vel, tincidunt diam.
                     </Text>
-                    <Box p={7} bg={'blue.500'} color={'white'} my={7}>
+                    <Box p={{md: 7, base: 4}} rounded={4} bg={'blue.500'} color={'white'} my={7}>
                         <Text>
                             Aliquam nec lacus pulvinar, laoreet dolor quis, pellentesque ante. Cras nulla orci, pharetra at dictum consequat, pretium pretium nulla. Suspendisse porttitor nunc a sodales tempor. Mauris sed felis maximus, interdum metus vel, tincidunt diam. Nam ac risus vitae sem vehicula egestas. Sed velit nulla, viverra non commodo et, sodales
                         </Text>
@@ -74,7 +74,7 @@ export default function Blog() {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis ultricies tortor, nec sollicitudin lorem sagittis vitae. Curabitur rhoncus commodo rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nec lacus pulvinar, laoreet dolor quis, pellentesque ante. Cras nulla orci, pharetra at dictum consequat, pretium pretium nulla. Suspendisse
                         </Text>
                     </Box>
-                    <Flex>
+                    <Flex mt={6}>
                         <Flex justifyContent={'center'} alignItems={'center'} gap={1} color={'white'} width={'130px'} py={3} px={2} bg={'blue.300'}>
                             <FaFacebookF/>
                             <Text fontWeight={500}>Facebook</Text>
@@ -111,7 +111,7 @@ export default function Blog() {
                             </Flex>
                         </Flex>
                     </Box>
-                    <Box my={8} pl={36} borderBottomWidth={1} borderColor={'gray.300'} pb={8}>
+                    <Box my={8} pl={{md: 36, base: 0}} borderBottomWidth={1} borderColor={'gray.300'} pb={8}>
                         <Flex gap={3}>
                             <Image boxSize={75} rounded={'full'} src='/img/author2.jpg'/>
                             <Flex flexDir={'column'} gap={2}>
@@ -138,22 +138,22 @@ export default function Blog() {
                 <Box p={{md: 10, base: 3}}  shadow={'xl'} rounded={'10'} mt={10}>
                     <Heading fontWeight={500} fontSize={20}>Leave Comments</Heading>
                     <form className='mt-8'>
-                        <Box className='grid grid-cols-3 place-items-center gap-3'>
+                        <Box className='grid md:grid-cols-3 grid-cols-1 md:place-items-center gap-3'>
                             <Box position={'relative'}>
-                                <input type="text" placeholder='First name' className='p-3 pl-10 border-slate-200 border rounded-md outline-none'/>
+                                <input type="text" placeholder='First name' className='p-3 pl-10 border-slate-200 border rounded-md outline-none w-full'/>
                                 <FaUser className='absolute top-4 left-3 text-blue-500'/>
                             </Box>
                             <Box my={6} position={'relative'}>
-                                <input type="text" placeholder='Last name' className='p-3 pl-10 border-slate-200 border rounded-md outline-none'/>
+                                <input type="text" placeholder='Last name' className='p-3 pl-10 border-slate-200 border rounded-md outline-none w-full'/>
                                 <IoMdMail className='absolute top-4 left-3 text-blue-500'/>
                             </Box>
                             <Box position={'relative'}>
-                                <input type="email" placeholder='Your Email' className='p-3 pl-10 border-slate-200 border rounded-md outline-none'/>
+                                <input type="email" placeholder='Your Email' className='p-3 pl-10 border-slate-200 border rounded-md outline-none w-full'/>
                                 <IoMdMail className='absolute top-4 left-3 text-blue-500'/>
                             </Box>
                         </Box>
                         <Box position={'relative'}>
-                            <textarea name="" id="" className='w-[100%] h-[200px] p-3 pl-10 border-slate-200 border rounded-md outline-none mt-6' placeholder='Type Your Messahe Here'></textarea>
+                            <textarea name="" id="" className='w-[100%] h-[200px] p-3 pl-10 border-slate-200 border rounded-md outline-none w-full mt-6' placeholder='Type Your Messahe Here'></textarea>
                             <TfiWrite className='absolute top-11 left-3 text-blue-500'/>
                         </Box>
                         <Box mt={5}>
@@ -162,8 +162,8 @@ export default function Blog() {
                     </form>
                 </Box>
             </Box>
-        <Box width={'30%'}>
-            <Flex justifyContent={'center'} alignItems={'center'} p={{md: 10, base: 3}} height={'150px'} bg={'blue.500'} shadow={'xl'} rounded={'10'} width={'100%'}>
+        <Box width={{md: '30%', base: '97%'}}>
+            <Flex justifyContent={'center'} alignItems={'center'} p={{md: 10, base: 3}} height={'150px'} bg={'blue.500'} shadow={'xl'} rounded={{md: '10', base: 5}} width={'100%'}>
                 <form className='flex justify-center w-full'>
                     <input type="email" placeholder='Search Here' className='p-3 md:w-[75%] w-[280px] border-slate-200 border outline-none text-black font-medium'/>
                     <button className='uppercase p-3 w-[60px] bg-slate-700 text-white font-medium flex justify-center items-center'><FaSearch className='text-xl'/></button>
@@ -209,7 +209,7 @@ export default function Blog() {
                     </Flex>
                 </Box>
             </Box>
-            <Box p={{md: 10, base: 3}}  shadow={'xl'} rounded={'10'} mt={10}>
+            <Box py={{md: 10, base: 5}} px={{md: 10, base: 3}} shadow={'xl'} rounded={'10'} my={10}>
                 <Heading fontWeight={500} fontSize={20} borderLeftWidth={4} borderColor={'blue.500'} pl={2}>Tags</Heading>
                 <Flex flexWrap={'wrap'} gap={2} mt={5}>
                     <Button _hover={{bg: 'blue.500', color: 'white'}}>Business</Button>
