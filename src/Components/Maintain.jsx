@@ -64,7 +64,7 @@ export default function Maintain() {
                     </Box>
                     <Box position={'absolute'} top={'50%'} left={'50%'} display={'none'} className='view-details translate-x-[-50%] translate-y-[-50%]'>
                         <Button py={'22px'} bg={'white'} color={'black'} _hover={{bg: 'blue.500', color:'white'}}>
-                            <Link to={'/view-details'}>View Details</Link>
+                            <Link to={'/details'}>View Details</Link>
                         </Button>
                     </Box>
                 </Box>
@@ -74,7 +74,7 @@ export default function Maintain() {
                     </Box>
                     <Box position={'absolute'} top={'50%'} left={'50%'} display={'none'} className='view-details translate-x-[-50%] translate-y-[-50%]'>
                         <Button py={'22px'} bg={'white'} color={'black'} _hover={{bg: 'blue.500', color:'white'}}>
-                            <Link to={'/view-details'}>View Details</Link>
+                            <Link to={'/details'}>View Details</Link>
                         </Button>
                     </Box>
                 </Box>
@@ -84,7 +84,7 @@ export default function Maintain() {
                     </Box>
                     <Box position={'absolute'} top={'50%'} left={'50%'} display={'none'} className='view-details translate-x-[-50%] translate-y-[-50%]'>
                         <Button py={'22px'} bg={'white'} color={'black'} _hover={{bg: 'blue.500', color:'white'}}>
-                            <Link to={'/view-details'}>View Details</Link>
+                            <Link to={'/details'}>View Details</Link>
                         </Button>
                     </Box>
                 </Box>
@@ -94,7 +94,7 @@ export default function Maintain() {
                     </Box>
                     <Box position={'absolute'} top={'50%'} left={'50%'} display={'none'} className='view-details translate-x-[-50%] translate-y-[-50%]'>
                         <Button py={'22px'} bg={'white'} color={'black'} _hover={{bg: 'blue.500', color:'white'}}>
-                            <Link to={'/view-details'}>View Details</Link>
+                            <Link to={'/details'}>View Details</Link>
                         </Button>
                     </Box>
                 </Box>
